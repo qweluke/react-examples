@@ -1,0 +1,36 @@
+/** buttons **/
+/** forms **/
+.pricing-table input {
+  width: 60px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: unset;
+  font-size: 1rem;
+  color: #121958; }
+
+.pricing-table thead tr th {
+  font-size: 0.928rem;
+  color: #121958;
+  font-weight: 600;
+  text-align: center; }
+  .pricing-table thead tr th:first-child {
+    text-align: left;
+    color: #121958;
+    font-size: 1rem;
+    width: 12rem;
+    min-width: 12rem; }
+
+.pricing-table tbody tr.spacer {
+  height: 1em; }
+
+.pricing-table tbody tr:hover {
+  background-color: #D8E0F6 !important; }
+
+.pricing-table tbody tr td {
+  text-align: center; }
+  .pricing-table tbody tr td:first-child {
+    font-weight: 600;
+    text-align: left;
+    color: #121958;
+    font-size: 1rem; }

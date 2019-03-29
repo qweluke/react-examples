@@ -1,0 +1,102 @@
+/** buttons **/
+/** forms **/
+.ReactTable {
+  border: 0; }
+  .ReactTable .rt-thead.-header {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+  .ReactTable .rt-thead.-filters input {
+    border: 1px solid #121958 !important;
+    border-radius: 2px !important;
+    -webkit-border-radius: 2px !important;
+    background-color: #fff !important; }
+  .ReactTable .rt-thead .rt-th {
+    border-right: 0;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 18px; }
+    .ReactTable .rt-thead .rt-th.-cursor-pointer .rt-resizable-header-content:after {
+      float: right;
+      color: #121958;
+      font: 15pt fontello;
+      content: '\f0dc';
+      display: inline-block;
+      padding: 0 5px;
+      width: 25px; }
+    .ReactTable .rt-thead .rt-th.-cursor-pointer.-sort-asc {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+      .ReactTable .rt-thead .rt-th.-cursor-pointer.-sort-asc .rt-resizable-header-content:after {
+        float: right;
+        color: #121958;
+        font: 15pt fontello;
+        content: '\f0de';
+        display: inline-block;
+        padding: 0 5px;
+        width: 25px; }
+    .ReactTable .rt-thead .rt-th.-cursor-pointer.-sort-desc {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+      .ReactTable .rt-thead .rt-th.-cursor-pointer.-sort-desc .rt-resizable-header-content:after {
+        float: right;
+        color: #121958;
+        font: 15pt fontello;
+        content: '\f0dd';
+        display: inline-block;
+        padding: 0 5px;
+        width: 25px; }
+  .ReactTable .rt-tbody {
+    overflow: hidden; }
+    .ReactTable .rt-tbody .rt-tr-group {
+      padding: 0.3em 0;
+      border-bottom: 0; }
+      .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        background-color: #F5F7FA; }
+        .ReactTable .rt-tbody .rt-tr-group .rt-tr:hover {
+          background-color: #D8E0F6 !important; }
+        .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+          font-size: 0.875rem;
+          display: -webkit-flex;
+          display: flex;
+          align-items: center; }
+          .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td.action {
+            background-color: transparent !important; }
+          .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td.text-center {
+            justify-content: center;
+            flex-direction: column;
+            text-align: center; }
+          .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td span {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap; }
+  .ReactTable .-btn {
+    border-radius: 2px;
+    font-weight: 600 !important;
+    line-height: 19px !important;
+    background-color: #121958 !important;
+    color: #fff !important;
+    border: 2px solid #121958; }
+  .ReactTable .-pageSizeOptions select {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #121958;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out; }
+  .ReactTable .-pagination {
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }

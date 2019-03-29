@@ -1,0 +1,67 @@
+@import "../../../assets/scss/vars.scss";
+
+.react-datepicker {
+  &__month {
+    margin: 0.4rem 0;
+  }
+  &__input-container {
+
+    &:after {
+      color: $primaryColor;
+      font: 15pt fontello;
+      content: '\e801';
+      display: inline-block;
+      padding: 0 5px;
+      width: 40px;
+      height: 100%;
+      position: absolute;
+      text-align: center;
+      top: 20%;
+      right: 0;
+    }
+  }
+}
+
+
+/** popover */
+.react-datepicker-popper {
+
+  .react-datepicker {
+    border: 1px solid $primaryColor;
+
+    &__header {
+      background-color: $contentBgColor;
+    }
+    &-wrapper {
+      width: 100%;
+    }
+
+    &__input-container {
+      width: 100%;
+    }
+
+    &__triangle {
+      &::before {
+        border-bottom-color: $primaryColor !important;
+      }
+    }
+
+    &__day,
+    &__month-text {
+      border: 2px solid transparent;
+      &:hover {
+        color: $primaryColor;
+        border: 2px solid $primaryColor;
+        background-color: white;
+      }
+    }
+    .react-datepicker__day {
+      &--in-range,
+      &.--keyboard-selected {
+        background-color: #fff;
+        border: 1px solid $primaryColor;
+        color: $primaryColor;
+      }
+    }
+  }
+}

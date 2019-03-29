@@ -1,0 +1,65 @@
+/** buttons **/
+/** forms **/
+.reservation-modal .modal-header.reservation-header {
+  background-color: #F5F7FA; }
+  .reservation-modal .modal-header.reservation-header .container-fluid {
+    margin-top: 4px; }
+  .reservation-modal .modal-header.reservation-header .reservation-status-text span {
+    color: #121958;
+    font-size: 1rem;
+    font-weight: 600; }
+  .reservation-modal .modal-header.reservation-header .reservation-price-text {
+    font-weight: 500;
+    color: #121958;
+    font-size: 0.75rem; }
+    .reservation-modal .modal-header.reservation-header .reservation-price-text .price {
+      padding-left: 0.5rem;
+      font-weight: 600;
+      font-size: 0.875rem; }
+  .reservation-modal .modal-header.reservation-header button span {
+    font-size: 2rem;
+    color: #121958; }
+
+.reservation-modal .modal-header.reservation-details .reservation-place-header {
+  font-size: 0.875rem;
+  color: #121958;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.reservation-modal .modal-header.reservation-details .reservation-place-title {
+  font-size: 0.875rem;
+  color: #121958;
+  font-weight: 600; }
+
+.reservation-modal .modal-header.reservation-details .reservation-no-header {
+  color: #121958;
+  font-weight: 500;
+  font-size: 0.75rem; }
+
+.reservation-modal .modal-header.reservation-details .reservation-no-title {
+  color: #121958;
+  font-weight: 600;
+  font-size: 0.875rem; }
+
+.reservation-modal .modal-body .react-datepicker-wrapper {
+  width: 100%; }
+
+.reservation-modal .modal-body .react-datepicker__input-container {
+  width: 100%; }
+
+.reservation-modal .modal-body form label {
+  font-size: 0.75rem;
+  color: #121958;
+  font-weight: 500; }
+
+.reservation-modal .modal-body form textarea {
+  resize: none; }
+
+.reservation-modal .modal-body form textarea,
+.reservation-modal .modal-body form input {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #121958; }
+  .reservation-modal .modal-body form textarea:disabled,
+  .reservation-modal .modal-body form input:disabled {
+    background-color: #F5F7FA !important; }

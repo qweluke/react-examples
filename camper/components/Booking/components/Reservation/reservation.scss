@@ -1,0 +1,111 @@
+@import "../../../assets/scss/vars.scss";
+
+.reservation-modal {
+
+  .modal-header {
+
+    &.reservation-header {
+      .container-fluid {
+        margin-top: 4px;
+      }
+      background-color: $contentBgColor;
+
+      .reservation {
+        &-status-text {
+          span {
+            color: $primaryColor;
+            font-size: 1rem;
+            font-weight: 600;
+          }
+        }
+
+        &-price-text {
+          font-weight: 500;
+          color: $primaryColor;
+          font-size: 0.75rem;
+
+          .price {
+            padding-left: 0.5rem;
+            font-weight: 600;
+            font-size: 0.875rem;
+          }
+        }
+      }
+
+
+      button {
+        span {
+          font-size: 2rem;
+          color: $primaryColor;
+        }
+      }
+    }
+
+
+    &.reservation-details {
+      .reservation {
+        &-place {
+          &-header {
+            font-size: 0.875rem;
+            color: $primaryColor;
+            font-weight: 600;
+            text-transform: uppercase;
+          }
+          &-title {
+            font-size: 0.875rem;
+            color: $primaryColor;
+            font-weight: 600;
+          }
+        }
+
+        &-no {
+          &-header {
+            color: $primaryColor;
+            font-weight: 500;
+            font-size: 0.75rem;
+          }
+          &-title {
+            color: $primaryColor;
+            font-weight: 600;
+            font-size: 0.875rem;
+          }
+        }
+      }
+    }
+  }
+
+  .modal-body {
+
+    .react-datepicker {
+      &-wrapper {
+        width: 100%;
+      }
+      &__input-container {
+        width: 100%;
+      }
+    }
+    form {
+
+      label {
+        font-size: 0.75rem;
+        color: $primaryColor;
+        font-weight: 500;
+      }
+
+      textarea {
+        resize: none;
+      }
+
+      textarea,
+      input {
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: $primaryColor;
+
+        &:disabled {
+          background-color: $groupItemBgColor !important;
+        }
+      }
+    }
+  }
+}

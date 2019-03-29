@@ -1,0 +1,54 @@
+@import '../../../assets/scss/vars.scss';
+
+.pricing-table {
+
+  input {
+    width: 60px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: unset;
+    font-size: 1rem;
+    color: $primaryColor;
+  }
+
+  thead {
+    tr {
+      th {
+        font-size: 0.928rem;
+        color: $primaryColor;
+        font-weight: 600;
+        text-align: center;
+
+        &:first-child {
+          text-align: left;
+          color: $primaryColor;
+          font-size: 1rem;
+          width: 12rem;
+          min-width: 12rem;
+        }
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      &.spacer {
+        height: 1em;
+      }
+
+      &:hover {
+        background-color: $hoverBg !important;
+      }
+      td {
+        text-align: center;
+        &:first-child {
+          font-weight: 600;
+          text-align: left;
+          color: $primaryColor;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

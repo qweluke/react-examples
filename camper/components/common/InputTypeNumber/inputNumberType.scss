@@ -1,0 +1,76 @@
+@import '../../../assets/scss/vars.scss';
+
+.number-type {
+
+  input {
+    font-size: 14pt;
+    border: solid 0.5px #000;
+    z-index: 1;
+    padding-right: 28px;
+    padding-left: 5px;
+    position: relative;
+    text-align: center;
+
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+      opacity: 1;
+    }
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: inner-spin-button !important;
+      width: 25px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+
+  }
+
+  .number-type-nav {
+    position: relative;
+
+    .number-type-button {
+      position: absolute;
+      cursor: default;
+      z-index: 2;
+      background-color: #fff;
+      border-left: 1px solid $primaryColor;
+      width: 25px;
+      text-align: center;
+      margin: 0px;
+      pointer-events: none;
+      height: calc(50% - 1px);
+      line-height: 10px;
+      right: 1px;
+
+      &:before {
+        color: $primaryColor;
+        font: 13pt fontello;
+        display: inline-block;
+        font-weight: 600;
+        padding: 0 5px;
+        width: 100%;
+      }
+
+      &.number-type-up {
+        top: 1px;
+
+        &:before {
+          content: '\f106';
+        }
+      }
+
+      &.number-type-down {
+        bottom: 1px;
+
+        &:before {
+          content: '\f107';
+        }
+      }
+    }
+  }
+
+
+}

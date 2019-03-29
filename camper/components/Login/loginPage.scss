@@ -1,0 +1,116 @@
+@import "../../assets/scss/vars.scss";
+
+
+html,
+body {
+  padding: 0 !important;
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: $contentBgColor !important;
+
+  * {
+    font-family: Montserrat, 'sans-serif';
+  }
+
+  #root {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+.login-page {
+  .login-form-container {
+    -ms-flex: 0 0 500px;
+    flex: 0 0 500px;
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+
+    #wrapper {
+
+      .welcome-text {
+        height: 84px;
+        color: $primaryButtonColor;
+        white-space: pre-line;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 42px;
+      }
+
+      form {
+        padding-top: 4rem !important;
+
+        label {
+          width: 100%;
+          text-align: left;
+          color: $primaryButtonColor;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 19px;
+        }
+
+        input {
+          height: 50px;
+        }
+
+        .btn-login {
+          color: #FFFFFF;
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 24px;
+          text-align: center;
+          height: 60px;
+        }
+      }
+
+      .password-reset {
+        color: $sidebarColor;
+        float: right;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+      }
+    }
+  }
+
+
+  .login-bg-container {
+    background: url('../../assets/images/login-bg.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    .title-text {
+      white-space: pre-line;
+      height: 100px;
+      width: 686px;
+      color: #FFFFFF;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 50px;
+      position: absolute;
+      bottom: 10%;
+      left: 100px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+
+  .login-page {
+    .login-form-container {
+      -ms-flex: none;
+      flex: none;
+    }
+  }
+}
